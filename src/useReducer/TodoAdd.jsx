@@ -18,6 +18,7 @@ export const TodoAdd = ({ onNewTodo }) => {
         }
 
         onNewTodo(newTodo);
+        onResetForm();
     }
 
     return (
