@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 // import { useReducer } from 'react';
 // import { TodoReducer } from './TodoReducer';
+=======
+import { useReducer } from 'react';
+import { TodoReducer } from './TodoReducer';
+>>>>>>> parent of 0ab6100 (update)
 
 const initialState = [
     {
