@@ -1,5 +1,5 @@
-export const TodoList = ({ todos }) => {
-
+export const TodoList = ({todos}) => {
+    
     return (
         <>
             <ul className="list-group">
