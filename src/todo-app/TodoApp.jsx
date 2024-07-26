@@ -4,6 +4,9 @@
 =======
 import { useReducer } from 'react';
 import { TodoReducer } from './TodoReducer';
+<<<<<<< HEAD
+>>>>>>> parent of 0ab6100 (update)
+=======
 >>>>>>> parent of 0ab6100 (update)
 
 const initialState = [
