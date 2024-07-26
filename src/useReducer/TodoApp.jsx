@@ -16,7 +16,7 @@ const initialState = [
 
 export const TodoApp = () => {
 
-    const [state, dispatch] = useReducer(todoReducer, initialState)
+    const [todos, dispatch] = useReducer(todoReducer, initialState)
 
     return (
         <>
@@ -27,7 +27,7 @@ export const TodoApp = () => {
                 <div className="col-7">
                     <ul className="list-group">
                         {
-                            todos.map((todo) => (
+                            todos.map(todo => (
                                 <li
                                     key={todo.id}
                                     className="list-group-item d-flex justify-content-between">
