@@ -42,7 +42,6 @@ export const TodoApp = () => {
                                 </li>
                             ))
                         }
-
                     </ul>
                 </div>
 
