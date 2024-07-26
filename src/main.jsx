@@ -1,11 +1,12 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
+import React from 'react'
+import ReactDOM from 'react-dom/client'
 import './index.css';
-import { TodoApp } from './todo-app/TodoApp.jsx';
 
+// import { Padre } from './usando-memo/Padre';
+import { PokeApp } from './pokemon-app/PokeApp';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <TodoApp />
-  </React.StrictMode>,
+    <PokeApp />
+  </React.StrictMode>
 )
