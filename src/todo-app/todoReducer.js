@@ -9,6 +9,4 @@ export const TodoReducer = (initialState = [], action) => {
         default:
             return initialState;
     }
-
-
 };  
