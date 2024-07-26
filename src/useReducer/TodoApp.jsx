@@ -63,10 +63,8 @@ export const TodoApp = () => {
                         </button>
                     </form>
                 </div>
+                
             </div>
-
-
-
         </>
     )
 }
